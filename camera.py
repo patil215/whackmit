@@ -7,9 +7,8 @@ class Camera:
 	def __init__(self):
 		self.camera = picamera.PiCamera()
 	
-	def takePhoto(self, filepath):
-		""" Takes a photo and saves it to the /img directory. """
+	def take_photo(self, filepath):
 		self.camera.capture(filepath)
 
-	def getPiCamera(self):
+	def get_pi_camera(self):
 		return self.camera

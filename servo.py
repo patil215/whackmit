@@ -1,7 +1,7 @@
 import wiringpi
 import time
 
-class Whacker:
+class Striker:
     UP_POS = 5
     DOWN_POS = 140
     
